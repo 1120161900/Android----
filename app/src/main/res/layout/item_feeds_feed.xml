@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/feed_url_view"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Feed Url" />-->
+
+<!--</LinearLayout>-->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/feeds_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="16dp"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardBackgroundColor="@color/colorCardBackground">
+
+    <!--<TextView-->
+    <!--android:id="@+id/feed_url_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="425dp"-->
+    <!--android:background="@color/colorTextMain"-->
+    <!--android:gravity="center"-->
+    <!--android:text="Feed Url" />-->
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="231dp"
+        android:layout_height="75dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="75dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:textSize="18sp" />
+
+    <com.bdac.zhcyc.minititok.UI.FeedsListVideoPlayer
+        android:id="@+id/item_video_player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.bdac.zhcyc.minititok.UI.FeedsListVideoPlayer>
+
+
+</androidx.cardview.widget.CardView>

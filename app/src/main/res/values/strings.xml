@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">音抖</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="processing_refreshing">Refreshing…</string>
+    <string name="user_name">User Name:</string>
+    <string name="your_name">Your Name.</string>
+    <string name="student_id">Student ID:</string>
+    <string name="input_info">Input Personal Info</string>
+    <string name="sp_user_name">userName</string>
+    <string name="sp_student_id">studentId</string>
+</resources>
